@@ -34,7 +34,7 @@ $ curl -v -X POST localhost:8080/user -H 'Content-Type:application/json' -d '{
 ```
 Pour modifier le nombre de credit d'un utilisateur
 ```bash
-$ curl -v -X PATCH localhost:8080/user/1 '{"credit":7}'    
+$ curl -v -X PATCH localhost:8080/user/1 -H 'Content-Type:application/json' -d  '{"credit":7}'    
 ```
 
 Pour mettre a jour le profil d'un utilisateur 
