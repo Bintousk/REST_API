@@ -1,6 +1,8 @@
 # REST_API
 Pour télécharger le projet vous pouvez effectuer la commande :
+```bash
 $ git clone https://github.com/Bintousk/REST_API.git
+
 dans votre terminal.
 Vous pouvez aussi télécharger le format Zip .
 
